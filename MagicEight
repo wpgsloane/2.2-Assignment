@@ -1,0 +1,78 @@
+import java.util.Scanner;
+
+class MagicEight {
+
+    public static void main (String[] args) {
+        //1. declare variables
+        int answer=0;
+        Scanner sc = new Scanner(System.in);
+        //... other variables go here
+        
+        //2. get user input
+        System.out.print("What is your question mortal?");
+        sc.nextLine();
+        
+        answer = (int) (Math.random()*20)+1;
+        
+        if (answer ==1){
+           System.out.println("As I see it, yes."); 
+        }
+        else if(answer==2) {
+            System.out.println("Ask again later.");
+        }
+        else if(answer==3) {
+            System.out.println("Don't count on it.");
+        }
+        else if(answer==4) {
+            System.out.println("It is up to the Gods.");
+        }
+        else if(answer==5) {
+            System.out.println("Absolutely.");
+        }
+        else if(answer==6) {
+            System.out.println("Stars are out of alinement. Try again later.");
+        }
+        else if(answer==7) {
+            System.out.println("That is extremely unlikely.");
+        }
+        else if(answer==8) {
+            System.out.println("You may rely on it.");
+        }
+        else if(answer==9) {
+            System.out.println("My sources say no.");
+        }
+        else if(answer==10) {
+            System.out.println("Signs point to yes.");
+        }
+        else if(answer==11) {
+            System.out.println("Reply hazy. Try again later.");
+        }
+        else if(answer==12) {
+            System.out.println("The Supreme wills it. It will be so.");
+        }
+        else if(answer==13) {
+            System.out.println("OWO");
+        }
+        else if(answer==14) {
+            System.out.println("No. But if you get me a coffee, my answer-I mean the stars will change.");
+        }
+        else if(answer==15) {
+            System.out.println("Maybe, maybe not.");
+        }
+        else if(answer==16) {
+            System.out.println("No.");
+        }
+        else if(answer==17) {
+            System.out.println("Yes.");
+        }
+        else if(answer==18) {
+            System.out.println("Never ask that again.");
+        }
+        else if(answer==19) {
+            System.out.println("Looks Unlikely");
+        }
+        else if(answer==20) {
+            System.out.println("It is certain.");
+        }
+    }
+}
